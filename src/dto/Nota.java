@@ -10,11 +10,10 @@ package dto;
  */
 public class Nota {
     private static void main (String []args ){
-      int nota1,nota2,nota3,nota4;
-      int notafinal;
-      notafinal = 1;
-      System.out.println(notafinal);
-      
+    int nota1;
+    int nota2;
+    int nota3;
+    int nota4;
   
    
       

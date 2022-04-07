@@ -34,19 +34,19 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="cjcodigo" min="-2" pref="88" max="-2" attributes="0"/>
+                              <Component id="cjCodigo" min="-2" pref="88" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="cjnombre" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cjNombre" pref="200" max="32767" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="122" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -55,8 +55,8 @@
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="cjnota1" max="32767" attributes="0"/>
-                                  <Component id="cjnota2" pref="57" max="32767" attributes="0"/>
+                                  <Component id="cjNota1" max="32767" attributes="0"/>
+                                  <Component id="cjNota2" pref="57" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
@@ -66,8 +66,8 @@
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="cjnota4" max="32767" attributes="0"/>
-                                  <Component id="cjnota3" pref="57" max="32767" attributes="0"/>
+                                  <Component id="cjNota4" max="32767" attributes="0"/>
+                                  <Component id="cjNota3" pref="57" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -81,9 +81,9 @@
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="btgenerar" min="-2" pref="99" max="-2" attributes="0"/>
+                      <Component id="btGenerar" min="-2" pref="99" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btsalir" min="-2" pref="84" max="-2" attributes="0"/>
+                      <Component id="btSalir" min="-2" pref="84" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -100,13 +100,13 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="cjcodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cjCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="cjnota1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cjNota1" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
@@ -116,17 +116,17 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="cjnombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cjNombre" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                              <Component id="cjnota2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cjNota2" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="cjnota3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cjNota3" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -134,14 +134,14 @@
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="cjnota4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cjNota4" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="57" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="btsalir" pref="52" max="32767" attributes="0"/>
-                  <Component id="btgenerar" max="32767" attributes="0"/>
+                  <Component id="btSalir" pref="52" max="32767" attributes="0"/>
+                  <Component id="btGenerar" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
           </Group>
@@ -149,20 +149,20 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btgenerar">
+    <Component class="javax.swing.JButton" name="btGenerar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Generar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btgenerarActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btGenerarActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btsalir">
+    <Component class="javax.swing.JButton" name="btSalir">
       <Properties>
         <Property name="text" type="java.lang.String" value="Salir"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btsalirActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btSalirActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
@@ -175,20 +175,20 @@
         <Property name="text" type="java.lang.String" value="Nombre:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="cjcodigo">
+    <Component class="javax.swing.JTextField" name="cjCodigo">
     </Component>
-    <Component class="javax.swing.JTextField" name="cjnombre">
+    <Component class="javax.swing.JTextField" name="cjNombre">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cjnombreActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cjNombreActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="cjnota1">
+    <Component class="javax.swing.JTextField" name="cjNota1">
     </Component>
-    <Component class="javax.swing.JTextField" name="cjnota2">
+    <Component class="javax.swing.JTextField" name="cjNota2">
     </Component>
-    <Component class="javax.swing.JTextField" name="cjnota3">
+    <Component class="javax.swing.JTextField" name="cjNota3">
     </Component>
-    <Component class="javax.swing.JTextField" name="cjnota4">
+    <Component class="javax.swing.JTextField" name="cjNota4">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>

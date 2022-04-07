@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package dto;
-
+import dto.Nota;
 
 
 /**
@@ -13,5 +13,5 @@ package dto;
 public class Estudiante {
      private String nombre;
      private String codigo;
-      
+     Nota n = new Nota();
 }
