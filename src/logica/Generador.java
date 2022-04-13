@@ -4,20 +4,31 @@
  */
 package logica;
 
+import dto.Estudiante;
 import dto.Nota;
 
 /**
  *
  * @author jdcob
  */
-public class Generador {
+public class Generador  {
 public String ultimaOperacion;
     public double ultimoResultado;
-    public double promediar (double num1,double num2,double num3,double num4){
-       
-       double rta = ((num1*0.25) + (num2*0.35)+ (num3 * 0.15)+ (num4 * 0.25));
-       return rta; 
+   
+    
+    public Nota generarNota (double num1,double num2,double num3,double num4){
+       if ( num1==1 ){
+           return null;
+       }else{
+       Nota c = new Nota(num1,num2,num3,num4);
+     return c;
         }
-
 }
-
+    private Estudiante crearEstudiante(String nombre, String codigo){
+        Estudiante p = new Estudiante();
+        p.modificaCodigo(codigo);
+        p.modificaNombre(nombre);
+        return p;
+    }
+    
+}

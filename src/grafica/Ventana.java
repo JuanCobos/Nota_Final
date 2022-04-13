@@ -261,15 +261,21 @@ public class Ventana extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
 public void generarNota(){
+    
+
         double num1= Double.parseDouble(cjNota1.getText());
         double num2= Double.parseDouble(cjNota2.getText());
         double num3= Double.parseDouble(cjNota3.getText());
         double num4= Double.parseDouble(cjNota4.getText());
-        Generador prom = new Generador();
-        double ss = prom.promediar(num1,num2,num3,num4);
         String nombre = cjNombre.getText();
         String Codigo = cjCodigo.getText();
-        JOptionPane.showMessageDialog(this, "La nota final del estudiante " +nombre+" de codigo "+Codigo+" es:  "+ss, "NOTA FINAL", JOptionPane.INFORMATION_MESSAGE);
-      
-    }
-}
+        Generador prom = new Generador();
+        Nota ss = prom.generarNota(num1,num2,num3,num4);
+        if ( ss == null){
+            JOptionPane.showMessageDialog(this, "Ingrese todas las notas");
+           } 
+        else{
+            JOptionPane.showMessageDialog(this, ""+ss);
+        }
+    
+}}
